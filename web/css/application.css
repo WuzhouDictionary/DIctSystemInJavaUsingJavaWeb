@@ -1,0 +1,69 @@
+.goBack {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 0px;
+    cursor: pointer;
+    user-select: none;
+    z-index: 1000;
+}
+
+* {
+    font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif;
+}
+
+.app {
+    position: relative;
+    left: 1%;
+    padding: 45px 14%;
+    --scale: 1;
+    padding-bottom: calc((var(--scale) * 80px) - (80px / var(--scale)));
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    transition: all 0.35s;
+}
+
+.backgoundGlass {
+    position: fixed;
+    background-size: cover; 
+    background-position: 0 0; 
+    left: 0;
+    top: 0;
+    height: 200%;
+    width: 200%;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    border: 0.519481px solid rgba(255, 255, 255, 0.18);
+} 
+
+.appMenu {
+    padding: 0px 20px;
+    flex-direction: column;
+    width: calc(80px * var(--scale));
+    height: calc(80px * var(--scale));
+    /* background: rgba(229, 229, 229, 0.95); */
+    border-radius: 11.13px;
+    /* border-radius: calc(10px * var(--scale)); */
+    transition: all 0.35s;
+    cursor: pointer;
+    user-select: none;
+}
+
+.appMenu a {
+    -webkit-user-drag: none;
+}
+
+.appMenu a img {
+    width: 80px;
+    height: 80px;
+    border-radius: 11.13px;
+    -webkit-user-drag: none;
+}
+
+.appMenu img {
+    width: 80px;
+    height: 80px;
+    border-radius: 11.13px;
+    -webkit-user-drag: none;
+}
