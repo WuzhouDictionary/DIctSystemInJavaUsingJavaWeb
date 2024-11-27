@@ -6,6 +6,12 @@
         <element id="directory" name="classes">
           <element id="module-output" name="DIctSystemInJavaUsingJavaWeb" />
         </element>
+        <element id="file-copy" path="$PROJECT_DIR$/web/index.jsp" />
+        <element id="dir-copy" path="$PROJECT_DIR$/web/css" />
+        <element id="dir-copy" path="$PROJECT_DIR$/web/icons" />
+        <element id="dir-copy" path="$PROJECT_DIR$/web/imgs" />
+        <element id="dir-copy" path="$PROJECT_DIR$/web/js" />
+        <element id="javaee-facet-resources" facet="DIctSystemInJavaUsingJavaWeb/web/Web" />
       </element>
       <element id="javaee-facet-resources" facet="DIctSystemInJavaUsingJavaWeb/web/Web" />
     </root>
